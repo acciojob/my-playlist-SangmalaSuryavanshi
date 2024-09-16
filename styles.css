@@ -1,1 +1,50 @@
 /*  your css code here. If applicable */
+body {
+    background-color: rgb(204, 204, 204);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1, h2 {
+    margin: 10px 0;
+    text-align: center;
+}
+
+ul.playlist {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    display: inline-block;
+    margin: 20px 0;
+    width: 80%; /* Adjust width as needed */
+    max-width: 600px; /* Optional: Set a maximum width */
+    text-align: left; /* Align text to the left */
+}
+
+ul.playlist li {
+    margin: 10px 0;
+}
+
+ul.playlist li a {
+    text-decoration-line: none;
+    color: #000; /* Color of the links */
+}
+
+.player_one, .player_two {
+   background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border: 1px solid black; /* This makes the border black */
+    border-radius: 10px;
+    margin: 20px auto; /* This adds margin */
+    display: inline-block;
+}
